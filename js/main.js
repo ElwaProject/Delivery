@@ -5,5 +5,8 @@ $(document).ready(function () {
 	$(".modal__close").on("click", function () {
 		$(".modal").hide(500);
 	});
+	$(".modal__cancel").on("click", function () {
+		$(".modal").hide(500);
+	});
 });
 new WOW().init();
